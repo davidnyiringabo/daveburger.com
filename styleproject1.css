@@ -1,0 +1,46 @@
+body{
+ background-size: 70%;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-position-y: 20px;
+}
+.container2{
+width: 1000px;
+height: 200px;
+border: 2px;
+color: black;
+background-image: url(../Downloads/fastfoood.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: center;
+display: flex;
+}
+.col{
+ width: 1000px;
+ height: 200px;
+ color: black;
+}
+
+.h1{
+ font-size: 20px;
+ color: white;
+font-style: italic;
+
+}
+
+.h1:hoover .h1{
+ color: chocolate;
+}
+.mytab{
+ display: flex;
+}
+
+.p{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 40px;
+ padding: 10px;
+ text-align: right;
+
+}
+
+

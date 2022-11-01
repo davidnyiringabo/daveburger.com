@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta ch
+rset="UTF-8">
+<title>Dave Burger</title>
+<link rel="stylesheet" href="./styleproject1.css">
+<link rel="stylesheet" href="tabs.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awosome/4.7.0/css/fontawosome.min.css">
+<link href="https://fonts.googleapis.com/css?family=poppins&display=swap" rel="stylesheet">
+<style>
+.container2{
+ width: 1500px; height: 900px; border: 2px; margin-top: 10px; background-color:azure; margin: 30px 30px;
+}
+.col{
+
+width: 1500px; height: 120px; border: 2px; margin: 0; background-color: rgb(37, 36, 36); color: white;
+}
+
+.col2{
+ width: 12px; background-color: black;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container1" id="1">
+<style>
+ /* .container1{
+width: 1550px; height: 1000px; background-color: azure; position:relative; margin: 30px 30px;
+ } */
+</style>
+<div class="container2">
+<div class="col">
+
+ <h1 class="logo">Dave Burger</h1>
+ <div class="hero">
+  
+  <div class="btn-box">
+   <button id="btn1" onclick="openHome()" checked="checked">Home</button>
+   <button id="btn2" onclick="openOrder()" checked="checked"><a href="file:///C:/Users/nyiri/Documents/login.html">Order</a></button>
+   <button id="btn3" onclick="openAboutUs()" checked="checked">AboutUs</button>
+  </div>
+  <div id="content1" class="content">
+   <div class="content-left">
+    <h2>WELCOME TO DAVE BURGER</h2>
+   
+    <p>We serve the taste of life</p>
+    
+    <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM">Watch a video</a>
+   </div>
+   <div class="content-right">
+   <!-- <img src="../Downloads/a ring.jpg"> -->
+   </div>
+ 
+   
+  </div>
+  <div id="content2" class="content">
+   <div class="content-left">
+    <h2>Learn CSS</h2>
+ 
+    <p>We serve the taste of life</p>
+    
+    <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM">Watch a video</a>
+   </div>
+   <div class="content-right">
+   <!-- <img src="../Downloads/a ring.jpg"> -->
+   </div>
+ 
+   
+  </div>
+ 
+  <div id="content3" class="content">
+   <div class="content-left">
+    <h2>Learn JAVASCRIPT</h2>
+ 
+    <p>We serve the taste of life</p>
+    
+    <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM">Watch a video</a>
+   </div>
+   <div class="content-right">
+   <!-- <img src="../Downloads/a ring.jpg"> -->
+   </div>
+ 
+   
+  </div> 
+ </div>
+
+<div class="box1">
+ 
+ <div class="Inner_Box">
+
+  <h1>Get it delivered right to your door</h1>
+  
+ </div>
+ 
+
+
+</div>
+
+<div class="box2">
+ 
+ <div class="Inner_Box">
+
+  <h1>Get it delivered right to your door</h1>
+  
+ </div>
+ 
+
+
+</div>
+ 
+ 
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="container"></div>
+
+
+
+
+
+</div>
+</div>
+
+<script>
+ var content1 = document.getElementById("content1");
+ var content2 = document.getElementById("content2");
+ var content3 = document.getElementById("content3");
+ var  btn1 = document.getElementById("btn1");
+ var  btn2 = document.getElementById("btn2");
+ var  btn3 = document.getElementById("btn3");
+ 
+ function openHome (){
+  content1.style.transform = "translatex(0%)";
+  content2.style.transform = "translatex(230%)";
+  content3.style.transform = "translatex(230%)";
+  btn1.style.color= "#ff7846";
+  btn2.style.color= "#000";
+  btn3.style.color= "#000";
+ }
+ 
+ function openOrder (){
+  content1.style.transform = "translatex(230%)";
+  content2.style.transform = "translatex(0%)";
+  content3.style.transform = "translatex(230%)";
+  btn1.style.color= "#000";
+  btn2.style.color= "#ff7846";
+  btn3.style.color= "#000";
+ }
+ 
+ function openAboutUs (){
+  content1.style.transform = "translatex(230%)";
+  content2.style.transform = "translatex(230%)";
+  content3.style.transform = "translatex(0%)";
+  btn1.style.color= "#000";
+  btn2.style.color= "#000";
+  btn3.style.color= "#ff7846";
+ }
+ 
+ </script>
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
